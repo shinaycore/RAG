@@ -3,15 +3,20 @@ name = "rag-system"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "shinaycore",email = "ayush.mishra79825@gmail.com"}
+    {name = "shinaycore", email = "ayush.mishra79825@gmail.com"}
 ]
 requires-python = ">=3.14,<4.0"
 dependencies = [
     "rich (>=15.0.0,<16.0.0)",
     "langchain-text-splitters (>=1.1.2,<2.0.0)",
-    "tiktoken (>=0.13.0,<0.14.0)"
+    "tiktoken (>=0.13.0,<0.14.0)",
+    "pymupdf (>=1.28.2,<2.0.0)",
+    "sentence-transformers (>=5.7.0,<6.0.0)",
+    "chromadb (>=1.5.9,<2.0.0)"
 ]
 
+[tool.poetry]
+package-mode = false
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
