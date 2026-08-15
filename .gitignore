@@ -1,2 +1,11 @@
-# FOLDER
-.venv
+# DIRECTORIES
+__pycache__
+venv
+logs
+data
+assets
+
+# FILES
+.env
+text.txt
+*.json
